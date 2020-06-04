@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Registro en nuestra tienda</h1>
+    <form>
+        <label for="nombre">Nombre de usuario</label><br/>
+        <input type="text" name="nombre" id="nombre" placeholder="Ej: Juan">
+        <br/>
+        <label for="email">Email</label><br/>
+        <input type="email" name="email" id="email" placeholder="Ej: juan@gmail.com">
+        <br/>
+        <label for="edad">Edad</label><br/>
+        <input type="number" name="edad" id="edad" placeholder="Ej: 18">
+        <br/>
+        <label for="recomendacion">Recomendado por:</label><br/>
+        <select name="reco" id="recomendacion">
+            <option>Google</option>
+            <option>Amigos</option>
+            <option>Publicidad</option>
+        </select>
+        <br/>
+        <label for="coment">Comentarios:</label><br/>
+        <textarea name="comentarios" id="coment" cols="30" rows="10"></textarea><br/> 
+        <label for="registrar"></label>
+        <input type="submit">   
+    </form>
+</body>
+</html>
