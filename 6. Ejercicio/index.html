@@ -8,26 +8,45 @@
 <body>
     <h1>Registro en nuestra tienda</h1>
     <form>
-        <label for="nombre">Nombre de usuario</label><br/>
-        <input type="text" name="nombre" id="nombre" placeholder="Ej: Juan">
-        <br/>
-        <label for="email">Email</label><br/>
-        <input type="email" name="email" id="email" placeholder="Ej: juan@gmail.com">
-        <br/>
-        <label for="edad">Edad</label><br/>
-        <input type="number" name="edad" id="edad" placeholder="Ej: 18">
-        <br/>
-        <label for="recomendacion">Recomendado por:</label><br/>
-        <select name="reco" id="recomendacion">
-            <option>Google</option>
-            <option>Amigos</option>
-            <option>Publicidad</option>
-        </select>
-        <br/>
-        <label for="coment">Comentarios:</label><br/>
-        <textarea name="comentarios" id="coment" cols="30" rows="10"></textarea><br/> 
+        <p>
+            <label for="nombre">Nombre de usuario</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ej: Juan" autofocus required>
+        </p>
+        <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Ej: juan@gmail.com" required>
+        </p>
+        <p>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" placeholder="Ej: 18" required>
+        </p>
+        <p>
+            <label for="f_nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="f_nacimiento" id="f_nacimiento">
+        </p>
+        <p>
+            <label for="genre">Genero: </label>
+            <br>
+            <input type="radio" name="genre"> Masculino
+            <br>
+            <input type="radio" name="genre"> Femenino
+        </p>
+        <p>
+            <label for="recomendacion">Recomendado por:</label>
+            <select name="reco" id="recomendacion">
+                <option>Google</option>
+                <option>Amigos</option>
+                <option>Publicidad</option>
+            </select>
+        </p>
+        <p>
+            <label for="coment">Comentarios:</label><br/>
+            <textarea name="comentarios" id="coment" cols="30" rows="10"></textarea><br/> 
+        </p>
+        <p>
         <label for="registrar"></label>
-        <input type="submit">   
+        <input type="submit">  
+        </p> 
     </form>
 </body>
 </html>
